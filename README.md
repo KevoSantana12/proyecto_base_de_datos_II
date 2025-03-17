@@ -8,16 +8,13 @@ Paso 1 - Vamos a ejecutar el archivo llamado basededatosII.sql que esta en este 
 ![alt text](image.png)
 
 
-Las credenciales son Usuario: Admin, Contraseña: Admin123
-
-
 # Instalar el proyecto en la computadora local
 
 Paso 1 - Creamos una carpeta con el nombre de base de datos II
 
 Paso 2 - Dentro de la carpeta abrimos git bash y ejecutamos el siguiente comando:
 
-clone git@github.com:KevoSantana12/proyecto_base_de_datos_II.git
+git clone git@github.com:KevoSantana12/proyecto_base_de_datos_II.git
 
 cd proyecto_base_de_datos_II
 
@@ -50,6 +47,7 @@ Python Run.py
 
 # Nota
 
+El archivo de acceso de datos es diferente para cada uno de nosotros ya que el servidor tiene el nombre de nuestra computadora por lo que tendremos que agregar el archivo de acceso a base de datos manual. 
 
 
 
