@@ -9,15 +9,6 @@ GO
 USE RentaAutosBaseDatosII;
 GO
 
-
--- Crear el usuario de inicio de sesión en el servidor
-CREATE LOGIN Admin WITH PASSWORD = 'Admin123';
-GO
-
--- Crear el usuario dentro de la base de datos
-CREATE USER Admin FOR LOGIN Admin;
-GO
-
 -- Tabla: Carros
 CREATE TABLE Carros (
     IdCarro INT PRIMARY KEY IDENTITY(1,1),

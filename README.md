@@ -3,12 +3,12 @@ Guia para instalar y trabajar el Proyecto base de datos II
 
 # Crear la base de datos y el usuario con la que vamos a trabajar
 
-Paso 1 - Vamos a ejecutar el archivo llamado basededatosII.sql que esta en este repositorio, con esto vamos a crear el usuario y el archivo necesario para trabajar en el proyecto, para ejecutar la base de datos traten de seleccionar primero la operacion  y ejecutarla separadamente no todo el archivo de una vez.
+Paso 1 - Vamos a ejecutar el archivo llamado basededatosII.sql que esta en este repositorio, con esto vamos a crear el usuario y el archivo necesario para trabajar en el proyecto, para ejecutar la base de datos traten de seleccionar primero la operacion  y ejecutarla separadamente no todo el archivo de una vez porque nos puede dar errror.
 
 ![alt text](image.png)
 
-Usuario: Admin
-Contraseña: Admin123
+
+Las credenciales son Usuario: Admin, Contraseña: Admin123
 
 
 # Instalar el proyecto en la computadora local
@@ -22,6 +22,33 @@ clone git@github.com:KevoSantana12/proyecto_base_de_datos_II.git
 cd proyecto_base_de_datos_II
 
 Con esto tendriamos la version mas actualizada de nuestro proyecto
+
+
+# Compilar el servidor flask y creacion de unas variables de entorno.
+
+Paso 1 - En el archivo principal del proyecto abrimos el cmd de Visual Studio Code y agregamos el comando
+Python -m venv venv
+![alt text](image-1.png)
+
+cd .\venv\Scripts\    
+
+.\Activate
+
+pip install Flask 
+
+pip install pyodbc
+
+
+Paso 2 - Ejecutamos el siguiente comando para ubicarnos en la el archivo principal 
+
+cd ../../
+
+cd proyecto_base_de_datos_II
+
+Python Run.py
+
+
+# Nota
 
 
 
